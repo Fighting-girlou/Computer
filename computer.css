@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.body{
+    background-color: skyblue;
+}
+#result{
+    width: 350px;
+    height: 280px;
+    background-color: #F1F3F2;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+#caltextone,#caltexttwo{
+    width: 350px;
+    height:100px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 100px;
+    overflow: hidden;
+}
+#relt{
+    width: 340px;
+    height:100px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 100px;
+    overflow: hidden;
+}
+#coontent{
+    width: 352px;
+    height: 360px;
+    background-color: #FAFBFD;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+#coontent tr td{
+    width: 88px;
+    height:60px;
+    border: 1px solid rgba(153, 153, 153, 0.22);
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    font-family: "Arial Black";
+    cursor: default;
+}
+#ac{
+    color: #FB772F;
+}
+#sum{
+    background-color: #FB772F;
+}
+#histiory,#closehistory{
+    width: 100px;
+    height:50px;
+
+}
+#histiory span{
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "楷体";
+}
+#closehistory span{
+    font-size: 24px;
+    font-family: "楷体";
+    text-align: center;
+    line-height: 50px;
+}
+#histiory{
+    position: relative;
+    top:-600px;
+    left: 0px;
+}
+#closehistory{
+    position: relative;
+    top:-650px;
+    left: 200px;
+}
+#histiory,#closehistory:hover{
+    cursor: pointer;
+}
+#histiory span:hover,
+#closehistory span:hover {
+    color: seagreen;
+}
+
+#writehis{
+    width: 350px;
+    height: 670px;
+    background-color: #F1F3F2;
+    position: absolute;
+    right: 80px;
+    top:10px;
+    overflow: hidden;
+    display: none;
+}
+#writehishow:hover{
+    cursor: move;
+}
+#writehishow{
+    width: 100%;
+    list-style: none;
+    font-size: 24px;
+    text-align: right;
+    position: absolute;
+}
+#writehisshow li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
